@@ -14,9 +14,9 @@ Bugfixes:
   - fix msg typo in GitNotAllowedError (#2654, @joyicecloud)
   - fix Bundler.which for directories (#2697, @rhysd)
   - properly require `Capistrano::Version` (#2690, @steveklabnik)
-  - search for git.exe and git
-  - fix the bug that downloads every spec when API fetcher encouters an error
-  - only retry network requests
+  - search for git.exe in some Windows installs of git
+  - stop downloading every spec if the API fetcher encouters an error
+  - stop retrying git commands and resolver runs
 
 ## 1.4.0.rc.1 (2013-09-29)
 
